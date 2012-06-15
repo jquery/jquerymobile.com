@@ -1,0 +1,31 @@
+{
+  "name": "jquerymobil.com",
+  "title": "jQuery Mobile",
+  "description": "API reference documentation for the jQuery JavaScript Library.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jquery/jquerymobile.com",
+  "author": {
+    "name": "jQuery Foundation (http://jquery.org/)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jquery/jquerymobile.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jquery/jquerymobile.com/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "grunt": "0.3.x",
+    "grunt-clean": "0.1.0",
+    "grunt-wordpress": "0.1.0",
+	"pygmentize": "0.5.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
