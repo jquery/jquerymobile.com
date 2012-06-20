@@ -1,0 +1,46 @@
+<script>
+{
+	"title": "jQuery&#039;s Mobile Strategy"
+}
+</script>
+jQuery's mobile strategy can be summarized simply:
+<blockquote>
+<h2 style="margin: 0 40px 10px 40px; line-height: 150%; font-size: 1.7em;">Delivering top-of-the-line JavaScript and a unified User Interface across the most-used smartphone web browsers.</h2>
+</blockquote>
+The critical difference with our approach is the wide variety of mobile browsers we're targeting with jQuery Mobile. We've been working hard at bringing jQuery support to all mobile browsers that are sufficiently-capable and have at least a nominal amount of market share. In this way we're treating mobile web browsers exactly how we treat desktop web browsers.
+
+<a href="http://jquerymobile.com/gbs/"><img class="alignright size-full wp-image-74" style="float: right; margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 40px;" title="jq-mobile-browser-matrix" src="http://jquerymobile.com/wp-content/uploads/2010/08/jq-mobile-browser-matrix.png" alt="jQuery's Mobile Graded Browser Support Chart" width="183" height="195" /></a>To quantify this new realm of development we spent a considerable amount of time researching mobile browsers and their capabilities. The result of that research can be seen in our <a href="http://jquerymobile.com/gbs/">Mobile Graded Browser Support</a> chart. The jQuery team will be working to provide full support for all A and B grade browsers listed in this chart (and with limited support for some C grade browsers).
+
+Thus far no other framework has attempted to target as many mobile browsers as we have. It's a considerable amount of work and is consuming much of our development time.
+
+It's important to note that in the jQuery project we see no reason to limit ourselves to a few of the top mobile browsers (the iOS Browser and Android, most notably) simply because it doesn't take into account the full scope of the mobile market. The Blackberry browser, Opera Mobile, Fennec (mobile Firefox), and Mobile Internet Explorer are all very actively used; ignoring them would be a great disservice not just to those that wish to develop for those browsers but to the larger mobile open web.
+
+jQuery has a number of projects encompassed within it, including <a href="http://jquery.com/">jQuery core</a> and <a href="http://jqueryui.com/">jQuery UI</a>. We're working to make sure that all of our projects are working to meet the challenges presented by all the mobile browsers that we wish to support.
+<h2>jQuery Core</h2>
+Work has already been progressing nicely on making jQuery core work against all the mobile browsers that we wish to support. In order to achieve this, though, a considerable amount of effort had to go into setting up testing infrastructure. This included setting up proper simulators, acquiring devices for testing, and hooking all of them into <a href="http://swarm.jquery.org/">TestSwarm</a> (our distributed testing environment).
+
+<a title="jQuery TestSwarm by John Resig, on Flickr" href="http://www.flickr.com/photos/jeresig/4575689724/"><img class="alignright" style="float: right; margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 40px; -webkit-box-shadow: #aaa 0px 0px 4px; box-shadow: 0px 0px 4px #aaa; border: 6px solid #ffffff;" src="http://farm5.static.flickr.com/4016/4575689724_a1500f91d0.jpg" alt="jQuery TestSwarm" width="240" height="107" /></a>
+
+We've been fixing bugs as we go and will continue to do so throughout the rest of the summer of 2010. We're hoping to have a fully A and B grade-compatible release of jQuery and <a href="http://sizzlejs.com/">Sizzle</a> ready by October of 2010.
+
+Note that we're not releasing a separate "mobile only" build of jQuery. The bug fixes and workarounds that we develop will be included directly in mainline jQuery. You will be able to continue using the single script file containing jQuery and get all the benefits of working across all the new mobile browsers. Thus far these changes are only yielding a minimal increase in file size (no more than a couple hundred bytes) and no appreciable change in performance.
+<h2>jQuery UI</h2>
+While having a fully-operational version of jQuery for mobile browsers is of the utmost importance, it's equally critical that we provide a unified set of cross-browser interaction controls and components for developing mobile applications.
+
+While a few frameworks exist now (such as jQTouch, iUI, and Sencha Touch) none of them even attempt to provide a consistent experience beyond the safety of iOS, Android, and webOS. There is a major opportunity for jQuery to provide a solidified and easy-to-use experience for those that develop web-based mobile applications.
+
+As it stands now, jQuery UI provides a number of components for building desktop web applications. Many of these components are being made to work smoothly on mobile devices right now. However, there are a number of additional UI controls that would especially help in the development of mobile web applications,  such as form controls and layout.
+
+Right now the jQuery UI team is working on a number of new components and sample applications to help mobile web application developers, with an initial release scheduled for October 2010.
+
+The jQuery UI team will be taking a much more fine-grained approach with the development of the new components, compared to the improvements coming to jQuery core — namely that A grade browsers will receive additional new features that take advantage of their HTML 5 and CSS 3 capabilities. Additionally, some C grade browsers will be verified to work and render the controls correctly (although they will have a further degraded experience).
+
+In the development of the controls the jQuery UI team is taking its typical stance: The controls must be functionally identical across all browsers that are supported, degrading gracefully in browsers that either don't support JavaScript or don't support the full feature set required to utilize the control.
+<h2>Design goals</h2>
+From a design perspective, we have a unique challenge because we need a universal design system that will feel "right" on a broad range of devices instead of directly mimicking the design style of a particular platform.
+
+To that end, we aim to synthesize a touch-friendly design language that can work well across a range of form factors from smartphone to tablet and a range of mobile platforms. A new <a href="http://jqueryui.com/themeroller/">ThemeRoller</a> tool will be developed that will allow designers and developers to quickly design a custom theme that fits their color scheme and style to make a highly branded experience possible across all devices and browsers.
+
+To ensure the broadest possible compatibility, we will be embracing <a href="http://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a> techniques that start with clean, semantic HTML code that will work on any device. To keep code lightweight, we will be using <a href="http://www.w3.org/TR/css3-roadmap/">CSS3</a> techniques and minimizing images wherever possible. We will also look for ways to include accessibility features such as <a href="http://www.w3.org/WAI/intro/aria">ARIA attributes</a> and keyboard navigation to make our pages work equally well for people using assistive technologies like <a href="http://www.apple.com/accessibility/iphone/vision.html">Apple's VoiceOver</a> or people using focus-based navigation popular on Blackberry and Android platforms.
+
+<a class="arrow" href="http://jquerymobile.com/designs/">View preliminary mobile designs</a>
