@@ -1,5 +1,5 @@
 {
-  "name": "jquerymobil.com",
+  "name": "jquerymobile.com",
   "title": "jQuery Mobile",
   "description": "API reference documentation for the jQuery JavaScript Library.",
   "version": "0.0.0",
@@ -20,12 +20,12 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "dependencies": {
+  "dependencies": 	{
     "grunt": "0.3.x",
-    "grunt-clean": "0.1.0",
-	"grunt-html": "0.1.1",
+    "grunt-clean": "0.3.0",
+    "grunt-html": "0.1.1",
     "grunt-wordpress": "1.0.0",
-	"pygmentize": "0.5.3"
+    "grunt-jquery-content": "0.2.1"
   },
   "devDependencies": {},
   "keywords": []
