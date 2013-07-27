@@ -1,5 +1,6 @@
 <script>{
-	"title": "All jQuery Mobile Downloads"
+	"title": "All jQuery Mobile Downloads",
+	"pageTemplate": "page-fullwidth.php"
 }</script>
 
 ## 1.4.0 Alpha 1
