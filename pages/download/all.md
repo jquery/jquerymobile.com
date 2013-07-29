@@ -15,14 +15,6 @@
 * Released on April 10, 2013
 * [jQuery Mobile 1.3.1 (source, theme, images)](/resources/download/jquery.mobile-1.3.1.zip)
 
-## 1.2.1
-* Released on March 22, 2013
-* [jQuery Mobile 1.2.1 (source, theme, images)](/resources/download/jquery.mobile-1.2.1.zip)
-
-## 1.1.2
-* Released on March 19, 2013
-* [jQuery Mobile 1.1.2 (source, theme, images)](/resources/download/jquery.mobile-1.1.2.zip)
-
 ## 1.3.0
 * Released on February 20, 2013
 * [jQuery Mobile 1.3.0 (source, theme, images)](/resources/download/jquery.mobile-1.3.0.zip)
@@ -34,6 +26,10 @@
 ## 1.3.0 Beta 1
 * Released on January 14, 2013
 * [jQuery Mobile 1.3.0 Beta 1 (source, theme, images)](/resources/download/jquery.mobile-1.3.0-beta.1.zip)
+
+## 1.2.1
+* Released on March 22, 2013
+* [jQuery Mobile 1.2.1 (source, theme, images)](/resources/download/jquery.mobile-1.2.1.zip)
 
 ## 1.2.0
 * Released on October 2, 2012
@@ -54,6 +50,10 @@
 ## 1.2.0 Alpha 1
 * Released on August 1, 2012
 * [jQuery Mobile 1.2.0 Beta 1 (source, theme, images)](/resources/download/jquery.mobile-1.2.0-alpha.1.zip)
+
+## 1.1.2
+* Released on March 19, 2013
+* [jQuery Mobile 1.1.2 (source, theme, images)](/resources/download/jquery.mobile-1.1.2.zip)
 
 ## 1.1.1
 * Released on July 12, 2012
