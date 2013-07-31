@@ -1,5 +1,6 @@
 <script>{
-	"title": "jQuery Mobile Changelogs"
+	"title": "jQuery Mobile Changelogs",
+	"pageTemplate": "page-contentfull.php"
 }</script>
 
 ## [1.4.0 alpha 1 Changelog](/changelog/1.4.0-alpha.1/)
