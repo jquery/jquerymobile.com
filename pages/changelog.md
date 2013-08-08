@@ -11,3 +11,5 @@ Released on July 19, 2013
 Released on April 10, 2013
 ## [1.2.1 Changelog](/changelog/1.2.1/)
 Released on March 22, 2013
+## [1.2.1 Changelog](/changelog/1.1.2/)
+Released on March 19, 2013
