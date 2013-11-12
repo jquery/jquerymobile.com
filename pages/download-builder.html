@@ -1,0 +1,32 @@
+<script>
+{
+	"title": "jQuery Mobile Download Builder",
+	"pageTemplate": "page-contentfull.php"
+}
+</script>
+<link rel="stylesheet" href="/jquery-wp-content/themes/jquerymobile.com/builder.css" />
+<script src="/jquery-wp-content/themes/jquerymobile.com/builder.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
+
+<p class="intro">Customize your jQuery Mobile download by selecting the specific modules you need in the form below. For standard configurations, <a href="/download">download or link to CDN versions</a> of pre-built packages. Please note that the jQuery Mobile Download Builder is still in alpha, and as such should <em>not</em> be used on production websites.<br/><br/>
+Please report any issues you might find in the <a href="https://github.com/jquery/jquery-mobile-builder/issues">issue tracker</a>, and thanks!</p>
+
+<label class="branches">
+	Select branch
+	<select id="branch" name="branch">
+		<optgroup label="Stable">
+		<option value="1.3.2" selected>1.3.2</option>
+		<option value="1.2.1">1.2.1 Final</option>
+		<option value="1.1.2">1.1.2 Final</option>
+		<optgroup label="Unstable">
+		<option value="1.4.0-beta.1">1.4.0 beta 1</option>
+		<option value="master">Latest</option>
+	</select>
+</label>
+
+<form name="builder" id="builder" class="builder loading" method="post"></form>
+
+<p class="intro">Notes: The zip download doesn't contain the icon and loader images, please download the <a id="imageBundleLink">images</a> and drop that into your
+  folder structure. </p>
+
+<div id="download"></div>
