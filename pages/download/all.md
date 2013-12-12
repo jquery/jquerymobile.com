@@ -3,6 +3,22 @@
 	"pageTemplate": "page-contentfull.php"
 }</script>
 
+## 1.4.0
+* Released on December 12, 2013
+* [jQuery Mobile 1.4.0 (source, theme, images)](/resources/download/jquery.mobile-1.4.0.zip)
+
+## 1.4.0 RC 1
+* Released on October 24, 2013
+* [jQuery Mobile 1.4.0 RC 1 (source, theme, images)](/resources/download/jquery.mobile-1.4.0-rc.1.zip)
+
+## 1.4.0 Beta 1
+* Released on September 24, 2013
+* [jQuery Mobile 1.4.0 Beta 1 (source, theme, images)](/resources/download/jquery.mobile-1.4.0-beta.1.zip)
+
+## 1.4.0 Alpha 2
+* Released on August 15, 2013
+* [jQuery Mobile 1.4.0 Alpha 2 (source, theme, images)](/resources/download/jquery.mobile-1.4.0-alpha.2.zip)
+
 ## 1.4.0 Alpha 1
 * Released on July 25, 2013
 * [jQuery Mobile 1.4.0 Alpha 1 (source, theme, images)](/resources/download/jquery.mobile-1.4.0-alpha.1.zip)
