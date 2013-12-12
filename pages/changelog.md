@@ -3,12 +3,8 @@
 	"pageTemplate": "page-contentfull.php"
 }</script>
 
-## [1.4.0 beta 1 Changelog](/changelog/1.4.0-beta.1/)
-Released on September 24, 2013
-## [1.4.0 alpha 2 Changelog](/changelog/1.4.0-alpha.2/)
-Released on August 15, 2013
-## [1.4.0 alpha 1 Changelog](/changelog/1.4.0-alpha.1/)
-Released on July 25, 2013
+## [1.4.0 Changelog](/changelog/1.4.0/)
+Released on December 12, 2013
 ## [1.3.2 Changelog](/changelog/1.3.2/)
 Released on July 19, 2013
 ## [1.3.1 Changelog](/changelog/1.3.1/)
