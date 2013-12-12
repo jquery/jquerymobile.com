@@ -1,5 +1,5 @@
 <script>{
-	"title": "jQuery Mobile Changelogs",
+	"title": "Changelogs",
 	"pageTemplate": "page-contentfull.php"
 }</script>
 

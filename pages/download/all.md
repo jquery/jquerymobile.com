@@ -1,5 +1,5 @@
 <script>{
-	"title": "All jQuery Mobile Downloads",
+	"title": "All Downloads",
 	"pageTemplate": "page-contentfull.php"
 }</script>
 
