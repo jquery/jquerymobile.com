@@ -5,4 +5,117 @@
 }
 </script>
 
-<p>New roadmap coming soon</p>
+<p>The roadmap shows what we are planning to work on. Please note that this can be subject to change.</p>
+
+<h2>1.5</h2>
+<ul>
+	<li>Download Builder: Use jQuery UI’s download builder (update the file structure in the Mobile repo to match UI's)</li>
+	<li>Tools: Adopt <a href="https://github.com/jquery/jquery-release">jquery-release</a> script</li>
+	<li>Navigation: Start with API review
+		<ul>
+			<li>Establish the API</li>
+			<li>Hash/query params according specs</li>
+			<li>Support deeplinking</li>
+		</ul>
+	</li>
+	<li>Events: review swipe (event data used)</li>
+	<li>Namespacing: Switch to fixed namespace: data-ui-*</li>
+	<li>Tests: Remove test for deprecated features and flaky tests (especially dialog)</li>
+	<li>Widgets:
+		<ul>
+			<li>Remove style options from widgets, use classes in markup instead</li>
+			<li>Finish widget reviews:
+				<ul>
+					<li>Listview</li>
+					<li>Table</li>
+					<li>Panel</li>
+					<li>Navbar</li>
+					<li>Toolbar</li>
+					<li>Selectmenu (if jQuery UI's new selectmenu widget isn't ready yet)</li>
+				</ul>
+			</li>
+			<li>Adopt from jQuery UI:
+				<ul>
+					<li>Menu</li>
+					<li>Autocomplete</li>
+					<li>Selectmenu (if ready)</li>
+					<li>Datepicker</li>
+					<li>Spinner</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+<hr>
+
+<h2>1.6</h2>
+<ul>
+	<li>Widgets:
+		<ul>
+			<li>Adopt from jQuery UI:
+				<ul>
+					<li>Dialog</li>
+					<li>Tooltip</li>
+					<li>Button (rewrite)</li>
+					<li>Checkboxradio (new in UI)</li>
+					<li>Slider (rewrite)</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>Transitions: Review (factor out of pagecontainer)</li>
+	<li>Events: Implement pointer events through Polymer polyfill</li>
+</ul>
+<hr>
+
+<h2>1.7</h2>
+<ul>
+	<li>Navigation: Provide hooks for back button support in widgets</li>
+	<li>Widgets:
+		<ul>
+			<li>Panel: Rewrite
+				<ul>
+					<li>Make it work without a wrapper</li>
+					<li>Add top/bottom panel</li>
+					<li>Make panels scroll independently from page</li>
+					<li>Make it work with arbritrary content</li>
+				</ul>
+			</li>
+			<li>Adopt from jQuery UI:
+				<ul>
+					<li>Progressbar</li>
+					<li>Textinput</li>
+					<li>Accordion (was collapsible set)</li>
+					<li>Tooltip (was part of popup)</li>
+				</ul>
+			</li>
+			<li>Loader: Use dialog widget for loader</li>
+			<li>Popup: Replace popup by dialog and tooltip</li>
+		</ul>
+	</li>
+</ul>
+<hr>
+
+<h2>2.0</h2>
+<ul>
+	<li>Navigation: Finish API review
+		<ul>
+			<li>Actual support for multiple pagecontainers</li>
+		</ul>
+	</li>
+	<li>Widgets:
+		<ul>
+			<li>Move to jQuery UI:
+				<ul>
+					<li>Listview (rewrite)</li>
+					<li>Table (rewrite)</li>
+				</ul>
+			</li>
+			<li>Support full jQuery UI widget set and stop pulling in UI widgets</li>
+			<li>Filterable: Remove widget (continued as external plugin?)</li>
+		</ul>
+	</li>
+	<li>Support jQuery UI Interactions</li>
+	<li>Events: Review vclick</li>
+	<li>Adopt new CSS framework (for both jQuery UI and Mobile), including new ThemeRoller</li>
+</ul>
