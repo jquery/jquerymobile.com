@@ -1,6 +1,5 @@
 <script>{
 	"title": "Changelogs",
-	"pageTemplate": "page-contentfull.php",
 	"noHeadingLinks": true
 }</script>
 
