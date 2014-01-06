@@ -1,6 +1,5 @@
 <script>{
 	"title": "All Downloads",
-	"pageTemplate": "page-contentfull.php",
 	"noHeadingLinks": true
 }</script>
 

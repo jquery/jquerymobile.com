@@ -1,6 +1,5 @@
 <script>{
 	"title": "Upgrade Guides",
-	"pageTemplate": "page-contentfull.php",
 	"noHeadingLinks": true
 }</script>
 
