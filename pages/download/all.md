@@ -1,6 +1,7 @@
 <script>{
 	"title": "All Downloads",
-	"pageTemplate": "page-contentfull.php"
+	"pageTemplate": "page-contentfull.php",
+	"noHeadingLinks": true
 }</script>
 
 ## 1.4.0
