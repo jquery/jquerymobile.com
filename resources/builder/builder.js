@@ -85,7 +85,7 @@ $( function( $ ) {
 							$( "#"+module2domId(module) )
 								.prop( "checked", true )
 								.trigger( "change" )
-								.attr( "disabled", true );
+								.prop( "disabled", true );
 						}
 					);
 				}
@@ -129,12 +129,12 @@ $( function( $ ) {
 			if ( checked ) {
 				list = buildCheckListFor( id );
 				_.each( list, function( name ) {
-					$( '#' + module2domId( name ) ).attr( 'checked', 'checked' );
+					$( '#' + module2domId( name ) ).prop( 'checked', true );
 				});
 			} else {
 				list = buildUncheckListFor( id );
 				_.each( list, function( name ) {
-					$( '#' + module2domId( name ) ).removeAttr( 'checked' );
+					$( '#' + module2domId( name ) ).prop( 'checked', false );
 				});
 			}
 		},
@@ -204,7 +204,7 @@ $( function( $ ) {
 				exclude = [ "jquery", "json", "json!../package.json" ],
 				config;
 
-			$button.attr( "disabled", true );
+			$button.prop( "disabled", true );
 			e.preventDefault();
 			e.stopImmediatePropagation();
 
@@ -246,7 +246,7 @@ $( function( $ ) {
 
 			// I could not leverage iframe.onload to re-enable the button :-/
 			setTimeout( function() {
-				$button.attr( "disabled", false );
+				$button.prop( "disabled", false );
 			}, 1000 );
 		});
 });
