@@ -8,18 +8,18 @@
 <p>Customize your jQuery Mobile download by selecting the specific modules you need in the form below. For standard configurations, <a href="/download">download or link to CDN versions</a> of pre-built packages. Please note that the jQuery Mobile Download Builder is still in alpha, and as such should <em>not</em> be used on production websites.</p>
 <p>Please report any issues you might find in the <a href="https://github.com/jquery/jquerymobile.com/issues">issue tracker</a>, and thanks!</p>
 
-<label class="branches">
-	Select branch
+<div class="branches">
+	<label for="branch" class="select-branch">Select branch</label>
 	<select id="branch" name="branch">
 		<optgroup label="Stable">
 		<option value="1.4.2" selected>1.4.2</option>
 		<option value="1.3.2">1.3.2</option>
-		<option value="1.2.1">1.2.1 Final</option>
-		<option value="1.1.2">1.1.2 Final</option>
+		<option value="1.2.1">1.2.1</option>
+		<option value="1.1.2">1.1.2</option>
 		</optgroup><optgroup label="Unstable">
 		<option value="master">Latest</option>
 	</optgroup></select>
-</label>
+</div>
 
 <form name="builder" id="builder" class="builder loading" method="post"></form>
 
