@@ -44,11 +44,14 @@ margin: 0 0 4px -10px;
 }
 .branches {
 	float: left;
-	font-size: 1.4em;
-	font-weight: bold;
 	margin: 10px 40px;
 }
-.branches select {
+.select-branch {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#branch {
 	margin: 10px 0 0 0;
 	clear: both;
 	float: left;
