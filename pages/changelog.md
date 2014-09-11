@@ -3,6 +3,9 @@
 	"noHeadingLinks": true
 }</script>
 
+## [1.4.4 Changelog](/changelog/1.4.4/)
+Released on September 12, 2014
+
 ## [1.4.3 Changelog](/changelog/1.4.3/)
 Released on July 1, 2014
 
