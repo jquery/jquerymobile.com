@@ -3,6 +3,10 @@
 	"noHeadingLinks": true
 }</script>
 
+## 1.4.5
+* Released on October 31, 2014
+* [jQuery Mobile 1.4.5 (source, theme, images)](/resources/download/jquery.mobile-1.4.5.zip)
+
 ## 1.4.4
 * Released on September 12, 2014
 * [jQuery Mobile 1.4.4 (source, theme, images)](/resources/download/jquery.mobile-1.4.4.zip)
