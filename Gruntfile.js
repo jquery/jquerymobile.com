@@ -1,13 +1,10 @@
-var rimraf = require( "rimraf" );
-
 module.exports = function( grunt ) {
 
-grunt.loadNpmTasks( "grunt-check-modules" );
 grunt.loadNpmTasks( "grunt-jquery-content" );
 
 grunt.initConfig({
-	"build-pages": {
-		all: "pages/**"
+	"build-posts": {
+		page: "pages/**"
 	},
 	"build-resources": {
 		all: "resources/**"
@@ -19,11 +16,6 @@ grunt.initConfig({
 	})()
 });
 
-grunt.registerTask( "clean", function() {
-	rimraf.sync( "dist" );
-});
-
-grunt.registerTask( "build", [ "build-pages", "build-resources" ] );
-grunt.registerTask( "build-wordpress", [ "check-modules", "clean", "build" ] );
+grunt.registerTask( "build", [ "build-posts", "build-resources" ] );
 
 };
