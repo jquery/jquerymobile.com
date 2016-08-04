@@ -3,6 +3,9 @@
 	"noHeadingLinks": true
 }</script>
 
+## [1.5.0-alpha1 Changelog](/changelog/1.5.0-alpha1/)
+Released on January 11, 2017
+
 ## [1.4.5 Changelog](/changelog/1.4.5/)
 Released on October 31, 2014
 
