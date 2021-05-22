@@ -1,5 +1,7 @@
 $( function( $ ) {
-	var host = "https://amd-builder.jquerymobile.com",
+	// var host = "https://amd-builder.jquerymobile.com",
+	// var host = "http://localhost:3100",
+	var host = "https://node-amd-builder-mzgyj.ondigitalocean.app",
 		dependencyMap,
 		builderhtml = [],
 		sortable = [],
@@ -191,7 +193,7 @@ $( function( $ ) {
 			$( e.target ).closest( ".group" ).find( ".sel-all" ).prop( "checked", false );
 		})
 		.delegate( '.sel-all', 'change', selectAll );
-	
+
 	$( '#branch' ).change( refreshForm );
 	$( '#branch' ).change( refreshImageBundleLink );
 
@@ -233,7 +235,7 @@ $( function( $ ) {
 			};
 
 			if ( isGreaterThan( ref, 130 ) || ref === "master") {
-				// Starting at 1.3.1 we use requirejs.config.js 
+				// Starting at 1.3.1 we use requirejs.config.js
 				$.extend( config, {
 					mainConfigFile: "js/requirejs.config.js"
 				});
