@@ -1,7 +1,5 @@
 $( function( $ ) {
-	// var host = "https://amd-builder.jquerymobile.com",
-	// var host = "http://localhost:3100",
-	var host = "https://node-amd-builder-mzgyj.ondigitalocean.app",
+	var host = "https://amd-builder.jquerymobile.com",
 		dependencyMap,
 		builderhtml = [],
 		sortable = [],
