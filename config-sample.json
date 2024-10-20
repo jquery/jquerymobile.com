@@ -1,5 +1,5 @@
 {
-	"url": "vagrant.jquerymobile.com",
-	"username": "admin",
-	"password": "secret"
+	"url": "http://local.jquerymobile.com",
+	"username": "dev",
+	"password": "dev"
 }
