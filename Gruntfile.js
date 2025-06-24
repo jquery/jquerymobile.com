@@ -17,5 +17,6 @@ grunt.initConfig({
 });
 
 grunt.registerTask( "build", [ "build-posts", "build-resources" ] );
+grunt.registerTask( "deploy", [ "wordpress-deploy", "deploy-redirects" ] );
 
 };
