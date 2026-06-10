@@ -5,6 +5,7 @@
     { "url": "https://jquerymobile.com", "page_rank": 10 }
   ],
   "sitemap_urls": [
+    "https://jquerymobile.com/wp-sitemap.xml",
     "https://api.jquerymobile.com/wp-sitemap.xml"
   ],
   "// stop_urls": [
